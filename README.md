@@ -77,7 +77,7 @@ FUNCTION placeDisc(column):
                     Display message: "The game is a draw."
 
             Display message: `Player  
-            ${currentPlayer}'s turn.`
+            ${currentPlayer}'s turn.`1
 ```
 
 ### 3. winning the game 
