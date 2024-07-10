@@ -1,8 +1,13 @@
 * {
     box-sizing: border-box;
+    font-family: cursive;
   }
 
-
+body{
+  background-color: rgb(105, 105, 250);
+  /* background-color: #8AAAE5; */
+  
+}
 
 .board {
     display: flex;
@@ -41,6 +46,8 @@
   h1 , h2{
     display: flex;
     justify-content: center;
+    color: white;
+    margin: 2px;
   }
 
   button{
@@ -48,12 +55,14 @@
     display: flex;
     justify-content: center;
     background-color: red;
-    border: 5px solid white;
+    border: 2px solid white;
     align-items: center;
     height:2.5rem ;
     width: 5rem;
     border-radius: 35%;
     cursor: pointer;
+    margin: 3px; 
+    
   }
   button:hover {
     background-color: #942222; /* Darker shade on hover */
@@ -80,4 +89,43 @@
     display: flex;
     justify-content: center;
     
+  }
+
+  .pulse {
+    animation: pulseBorder 1.5s infinite;
 }
+
+@keyframes pulseBorder {
+    0% {
+        border-color: rgba(255, 255, 255, 1);
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        border-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        border-color: rgba(255, 255, 255, 1);
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+}
+
+.connect4container{
+    background-color: red;
+    height: 4rem;
+    width: 11rem;
+    border-radius: 20%;
+    border: 7px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect4containercontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

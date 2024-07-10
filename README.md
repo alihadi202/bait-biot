@@ -1,7 +1,7 @@
 # connect 4
 ![connect 4](pics/kids.jpg)
 ## description
-a 2 player game with a standing board players put discs in the coluumns until a player connects 4 discs diagonaly, horezontaly or from corner to corner 
+a two player game with a standing board players put discs in the coluumns until a player connects 4 discs diagonaly, horezontaly or from corner to corner 
 
 ## user stories
 
