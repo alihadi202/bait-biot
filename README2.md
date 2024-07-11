@@ -3,6 +3,8 @@
 ## description
 a two player game with a standing board players put discs in the coluumns until a player connects 4 discs diagonaly, horezontaly or from corner to corner 
 
+[demo](https://alihadi202.github.io/connect4/)
+
 ## Date: 10/7/2024
 
 ### By: Ali hadi
